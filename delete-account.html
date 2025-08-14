@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Delete Your Account and Data | SnapSOS (SOS Emergency App)</title>
+  <meta name="description" content="How to request deletion of your SnapSOS account and associated data. Instructions, what gets deleted, and our data retention policy." />
+  <style>
+    :root {
+      --bg: #0f172a;         /* slate-900 */
+      --card: #111827;       /* gray-900 */
+      --text: #e5e7eb;       /* gray-200 */
+      --muted: #9ca3af;      /* gray-400 */
+      --accent: #06b6d4;     /* cyan-500 */
+      --accent-2: #38bdf8;   /* sky-400 */
+      --border: #1f2937;     /* gray-800 */
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+      "Apple Color Emoji", "Segoe UI Emoji"; background: radial-gradient(1200px 800px at 20% -10%, rgba(6,182,212,.15), transparent), var(--bg);
+      color: var(--text);
+    }
+    .container { max-width: 880px; margin: 0 auto; padding: 32px 20px 80px; }
+    header { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; }
+    .badge { font-size: 12px; color: var(--muted); border: 1px solid var(--border); padding: 6px 10px; border-radius: 999px; }
+    h1 { font-size: 28px; margin: 6px 0 0; letter-spacing: .2px; }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01)); border: 1px solid var(--border); border-radius: 16px; padding: 22px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+    section { margin-top: 22px; }
+    h2 { font-size: 18px; margin: 0 0 10px; }
+    p { line-height: 1.65; color: var(--text); margin: 0 0 14px; }
+    ul { margin: 0 0 14px 18px; }
+    li { margin: 6px 0; color: var(--text); }
+    a { color: var(--accent-2); text-decoration: underline; }
+    .muted { color: var(--muted); }
+    .footer { margin-top: 36px; font-size: 14px; color: var(--muted); }
+    .mailto { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 10px; background: #0b1220; }
+    .highlight { background: rgba(6,182,212,.12); padding: 2px 6px; border-radius: 6px; }
+    code { background: #0b1220; padding: 2px 6px; border-radius: 6px; border: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">SnapSOS • SOS Emergency App</span>
+    </header>
+
+    <div class="card">
+      <h1>Delete Your Account and Data</h1>
+      <p class="muted">Effective Date: <span class="highlight">August 14, 2025</span></p>
+
+      <p>If you would like to delete your <strong>SnapSOS</strong> account and all associated data, please read the following carefully.</p>
+
+      <section>
+        <h2>How to Request Account Deletion</h2>
+        <p>Send an email to our support team using the email address below. Include your registered phone number or email so we can verify your identity:</p>
+
+        <p>
+          Email: <a class="mailto" href="mailto:ajaypatidar.it@gmail.com">ajaypatidar.it@gmail.com</a>
+        </p>
+      </section>
+
+      <section>
+        <h2>What Data Will Be Deleted?</h2>
+        <ul>
+          <li>Your account and login credentials (Firebase Authentication)</li>
+          <li>Saved emergency contacts stored in Firestore</li>
+          <li>Location data associated with SOS events (e.g., coordinates embedded in SOS messages/metadata)</li>
+          <li>App configuration data linked to your user ID (e.g., preferences)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Data Retention Policy</h2>
+        <p>Once we receive a valid deletion request, all associated data will be deleted within <strong>7 days</strong>. No personally identifiable information will be retained after this period.</p>
+      </section>
+
+      <section>
+        <h2>Need Help?</h2>
+        <p>If you face any issues or need help with your request, feel free to reach out to us at 
+          <a class="mailto" href="mailto:ajaypatidar.it@gmail.com">ajaypatidar.it@gmail.com</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Notes</h2>
+        <ul>
+          <li>Account deletion is <strong>permanent</strong> and cannot be undone.</li>
+          <li>If you signed in with Google, we will delete your app-side account; you may also manage your Google account data separately in your Google settings.</li>
+          <li>If you re-install or re-register after deletion, it will be treated as a <em>new account</em>.</li>
+        </ul>
+      </section>
+
+</body>
+</html>
